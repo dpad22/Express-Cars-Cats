@@ -35,6 +35,12 @@ app.get("/cats", (req, res) => {
 app.get("/forms", (req, res) => {
     res.render('forms.ejs');
 })
+app.get("/cat1", (req, res) => {
+    res.render('cat1.ejs');
+})
+app.get("/cat2", (req, res) => {
+    res.render('cat2.ejs');
+})
 
 
 
