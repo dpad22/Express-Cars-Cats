@@ -26,10 +26,15 @@ app.get("/users", (req, res) => {
     res.render('users.ejs', {users: users_array});
 })
 
-
-
-
-
+app.get("/cars", (req, res) => {
+    res.render('cars.ejs');
+})
+app.get("/cats", (req, res) => {
+    res.render('cats.ejs');
+})
+app.get("/forms", (req, res) => {
+    res.render('forms.ejs');
+})
 
 
 
